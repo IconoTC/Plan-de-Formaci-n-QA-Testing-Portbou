@@ -1,0 +1,60 @@
+version: '2'
+services:
+  testtoolsdb:
+    image: mariadb
+    container_name: test-tools-db
+    environment:
+      # ALLOW_EMPTY_PASSWORD is recommended only for development.
+      - ALLOW_EMPTY_PASSWORD=yes
+      # - MARIADB_USER=root
+      - MARIADB_ALLOW_EMPTY_ROOT_PASSWORD=1
+      - MARIADB_DATABASE=testlink
+    ports:
+      - '3307:3306'
+    networks:
+      - net
+    volumes:
+      - 'mariadb_data:/mariadb'
+  testlink:
+    image: docker.io/bitnami/testlink-archived:1
+    container_name: testlink
+    ports:
+      - '9080:8080'
+      - '9443:8443'
+    environment:
+      - TESTLINK_DATABASE_HOST=test-tools-db
+      - TESTLINK_DATABASE_PORT_NUMBER=3306
+      - TESTLINK_DATABASE_USER=root
+      - TESTLINK_DATABASE_NAME=testlink
+      # ALLOW_EMPTY_PASSWORD is recommended only for development.
+      - ALLOW_EMPTY_PASSWORD=yes
+      - TESTLINK_USERNAME=admin
+      - TESTLINK_PASSWORD=admin
+    networks:
+      - net
+    volumes:
+      - 'testlink_data:/bitnami/testlink'
+    depends_on:
+      - testtoolsdb
+  mantisbt:
+    image: xlrl/mantisbt:latest
+    container_name: mantisbt
+    ports:
+      - "9081:80"
+    volumes:
+      - ./config:/var/www/html/config
+      - ./custom:/var/www/html/custom
+    networks:
+      - net
+    depends_on:
+      - testtoolsdb
+networks:
+  net:
+    driver: bridge
+volumes:
+  mariadb_data:
+    driver: local
+  testlink_data:
+    driver: local
+    
+# http://localhost:9081/admin/install.php
