@@ -10,6 +10,8 @@
 - [JMeter](https://jmeter.apache.org/download_jmeter.cgi)
 - [Git](https://git-scm.com/)
 - [Node.js LTS](https://nodejs.org)
+- [Eclipse](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-03/R/eclipse-jee-2024-03-R-win32-x86_64.zip)
+- [Visual Studio Code](https://code.visualstudio.com/download#)
 
 ## Integración continua
 
