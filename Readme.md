@@ -13,6 +13,22 @@
 - [Eclipse](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-03/R/eclipse-jee-2024-03-R-win32-x86_64.zip)
 - [Visual Studio Code](https://code.visualstudio.com/download#)
 
+## Imagenes
+
+    docker push mariadb
+    docker push docker.io/bitnami/testlink-archived:1
+    docker push xlrl/mantisbt:latest
+    docker push jamarton/jenkins-maven-docker
+    docker push mailhog/mailhog
+    docker push sonarqube:latest
+    docker push docker:dind
+    docker push maven:3.8.6-eclipse-temurin-8
+
+### Test Tools: Testlink & MantisBT
+
+    cd test-tools
+    docker compose up -d
+
 ## Integración continua
 
 ### Instalación Docker
@@ -25,11 +41,6 @@
 - https://github.com/jmagit/demos-devops
 - https://github.com/jmagit/demos-frontend-angular
 - https://github.com/jmagit/MOCKWebServer
-
-### Test Tools: Testlink & MantisBT
-
-    cd test-tools
-    docker compose up -d
 
 ### Entorno CI/CD
 
