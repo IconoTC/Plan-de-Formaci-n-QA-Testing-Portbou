@@ -12,6 +12,7 @@
 - [Node.js LTS](https://nodejs.org)
 - [Eclipse](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-03/R/eclipse-jee-2024-03-R-win32-x86_64.zip)
 - [Visual Studio Code](https://code.visualstudio.com/download#)
+- [Selenium IDE](https://chromewebstore.google.com/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd?hl=es&utm_source=ext_sidebar)
 
 ## Imagenes
 
