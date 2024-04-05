@@ -47,6 +47,7 @@
 
 #### Desplegar contenedores
 
+- docker network create jenkins
 - docker run -d --name mailhog -p 1025:1025 -p 8025:8025 mailhog/mailhog
 - docker run -d --name sonarQube --publish 9000:9000 --network jenkins sonarqube:latest
 - docker run -d --name jenkins-docker --detach --privileged --network jenkins --network-alias docker --env DOCKER_TLS_CERTDIR=/certs --volume jenkins-docker-certs:/certs/client --volume jenkins-data:/var/jenkins_home --publish 2376:2376 docker:dind --storage-driver overlay2
