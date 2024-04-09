@@ -37,7 +37,7 @@
 - https://learn.microsoft.com/es-es/windows/wsl/install
 - https://docs.docker.com/desktop/install/windows-install/
 
-### Repositorios
+### Repositorios con ejemplos
 
 - https://github.com/jmagit/demos-devops
 - https://github.com/jmagit/demos-frontend-angular
@@ -56,3 +56,18 @@
 ### Comandos
 
 - docker run --rm -it --name maven -v %cd%:/local -v maven-repository:/root/.m2 maven:3.8.6-eclipse-temurin-8 sh
+
+## Repositorios
+
+- [Grupo 1](https://github.com/joanpaneque/LogiRAIL-project)
+  - [Emma](https://github.com/ecardosa)
+  - [Roman](https://github.com/RomanMysyura)
+  - [Joan](https://github.com/joanpaneque)
+- [Grupo 2](https://github.com/Yugurto7/Logirail-Project)
+  - [Marcos](https://github.com/Yugurto7/Logirail-Marcos)
+  - [Anton](https://github.com/remmko/Formacion)
+  - [Adrià J.](https://github.com/adriajofre19/LogiRAIL-adria-jofre)
+- [Grupo 3](https://github.com/wade079/testing_qa_logirail)
+  - [Carlos](https://github.com/Joheartless)
+  - [Adrià A.](https://github.com/wade079)
+  - [Albert](https://github.com/Necromancer117)
