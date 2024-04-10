@@ -67,7 +67,7 @@
 ## Repositorios
 
 - [Grupo 1](https://github.com/joanpaneque/LogiRAIL-project)
-  - [Emma](https://github.com/ecardosa)
+  - [Emma](https://github.com/ecardosa/Logirail-Formacion)
   - [Roman](https://github.com/RomanMysyura)
   - [Joan](https://github.com/joanpaneque)
 - [Grupo 2](https://github.com/Yugurto7/Logirail-Project)
@@ -75,6 +75,6 @@
   - [Anton](https://github.com/remmko/Formacion)
   - [Adrià J.](https://github.com/adriajofre19/LogiRAIL-adria-jofre)
 - [Grupo 3](https://github.com/wade079/testing_qa_logirail)
-  - [Carlos](https://github.com/Joheartless)
+  - [Carlos](https://github.com/Joheartless/Logirail)
   - [Adrià A.](https://github.com/wade079)
   - [Albert](https://github.com/Necromancer117)

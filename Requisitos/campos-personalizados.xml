@@ -4,7 +4,7 @@
 		<name><![CDATA[Prioridad Especificación]]></name>
 		<label><![CDATA[Prioridad]]></label>
 		<type><![CDATA[6]]></type>
-		<possible_values><![CDATA[Alta|Media|Baja]]></possible_values>
+		<possible_values><![CDATA[Sin definir|Alta|Media|Baja]]></possible_values>
 		<default_value><![CDATA[]]></default_value>
 		<valid_regexp><![CDATA[]]></valid_regexp>
 		<length_min><![CDATA[0]]></length_min>
@@ -21,7 +21,58 @@
 		<name><![CDATA[Riesgo Especificación]]></name>
 		<label><![CDATA[Riesgo]]></label>
 		<type><![CDATA[6]]></type>
-		<possible_values><![CDATA[A|B|C]]></possible_values>
+		<possible_values><![CDATA[Sin definir|A|B|C]]></possible_values>
+		<default_value><![CDATA[]]></default_value>
+		<valid_regexp><![CDATA[]]></valid_regexp>
+		<length_min><![CDATA[0]]></length_min>
+		<length_max><![CDATA[0]]></length_max>
+		<show_on_design><![CDATA[1]]></show_on_design>
+		<enable_on_design><![CDATA[1]]></enable_on_design>
+		<show_on_execution><![CDATA[0]]></show_on_execution>
+		<enable_on_execution><![CDATA[0]]></enable_on_execution>
+		<show_on_testplan_design><![CDATA[0]]></show_on_testplan_design>
+		<enable_on_testplan_design><![CDATA[0]]></enable_on_testplan_design>
+		<node_type_id><![CDATA[6]]></node_type_id>
+	</custom_field>
+	<custom_field>
+		<name><![CDATA[Esfuerzo Estimado Esp.]]></name>
+		<label><![CDATA[Esfuerzo Estimado]]></label>
+		<type><![CDATA[1]]></type>
+		<possible_values><![CDATA[]]></possible_values>
+		<default_value><![CDATA[]]></default_value>
+		<valid_regexp><![CDATA[]]></valid_regexp>
+		<length_min><![CDATA[0]]></length_min>
+		<length_max><![CDATA[0]]></length_max>
+		<show_on_design><![CDATA[1]]></show_on_design>
+		<enable_on_design><![CDATA[1]]></enable_on_design>
+		<show_on_execution><![CDATA[0]]></show_on_execution>
+		<enable_on_execution><![CDATA[0]]></enable_on_execution>
+		<show_on_testplan_design><![CDATA[0]]></show_on_testplan_design>
+		<enable_on_testplan_design><![CDATA[0]]></enable_on_testplan_design>
+		<node_type_id><![CDATA[6]]></node_type_id>
+	</custom_field>
+	<custom_field>
+		<name><![CDATA[Esfuerzo Realizado Esp.]]></name>
+		<label><![CDATA[Esfuerzo Realizado]]></label>
+		<type><![CDATA[1]]></type>
+		<possible_values><![CDATA[]]></possible_values>
+		<default_value><![CDATA[]]></default_value>
+		<valid_regexp><![CDATA[]]></valid_regexp>
+		<length_min><![CDATA[0]]></length_min>
+		<length_max><![CDATA[0]]></length_max>
+		<show_on_design><![CDATA[1]]></show_on_design>
+		<enable_on_design><![CDATA[1]]></enable_on_design>
+		<show_on_execution><![CDATA[0]]></show_on_execution>
+		<enable_on_execution><![CDATA[0]]></enable_on_execution>
+		<show_on_testplan_design><![CDATA[0]]></show_on_testplan_design>
+		<enable_on_testplan_design><![CDATA[0]]></enable_on_testplan_design>
+		<node_type_id><![CDATA[6]]></node_type_id>
+	</custom_field>
+	<custom_field>
+		<name><![CDATA[Criterios de aceptación E]]></name>
+		<label><![CDATA[Criterios de aceptación]]></label>
+		<type><![CDATA[20]]></type>
+		<possible_values><![CDATA[]]></possible_values>
 		<default_value><![CDATA[]]></default_value>
 		<valid_regexp><![CDATA[]]></valid_regexp>
 		<length_min><![CDATA[0]]></length_min>
@@ -38,7 +89,7 @@
 		<name><![CDATA[Prioridad Requisito]]></name>
 		<label><![CDATA[Prioridad]]></label>
 		<type><![CDATA[6]]></type>
-		<possible_values><![CDATA[Alta|Media|Baja]]></possible_values>
+		<possible_values><![CDATA[Sin definir|Alta|Media|Baja]]></possible_values>
 		<default_value><![CDATA[]]></default_value>
 		<valid_regexp><![CDATA[]]></valid_regexp>
 		<length_min><![CDATA[0]]></length_min>
@@ -55,7 +106,7 @@
 		<name><![CDATA[Riesgo Requisito]]></name>
 		<label><![CDATA[Riesgo]]></label>
 		<type><![CDATA[6]]></type>
-		<possible_values><![CDATA[A|B|C]]></possible_values>
+		<possible_values><![CDATA[Sin definir|A|B|C]]></possible_values>
 		<default_value><![CDATA[]]></default_value>
 		<valid_regexp><![CDATA[]]></valid_regexp>
 		<length_min><![CDATA[0]]></length_min>
@@ -89,6 +140,40 @@
 		<name><![CDATA[Ejecución]]></name>
 		<label><![CDATA[Ejecución]]></label>
 		<type><![CDATA[500]]></type>
+		<possible_values><![CDATA[]]></possible_values>
+		<default_value><![CDATA[]]></default_value>
+		<valid_regexp><![CDATA[]]></valid_regexp>
+		<length_min><![CDATA[0]]></length_min>
+		<length_max><![CDATA[0]]></length_max>
+		<show_on_design><![CDATA[1]]></show_on_design>
+		<enable_on_design><![CDATA[1]]></enable_on_design>
+		<show_on_execution><![CDATA[0]]></show_on_execution>
+		<enable_on_execution><![CDATA[0]]></enable_on_execution>
+		<show_on_testplan_design><![CDATA[0]]></show_on_testplan_design>
+		<enable_on_testplan_design><![CDATA[0]]></enable_on_testplan_design>
+		<node_type_id><![CDATA[7]]></node_type_id>
+	</custom_field>
+	<custom_field>
+		<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+		<label><![CDATA[Esfuerzo Estimado]]></label>
+		<type><![CDATA[1]]></type>
+		<possible_values><![CDATA[]]></possible_values>
+		<default_value><![CDATA[]]></default_value>
+		<valid_regexp><![CDATA[]]></valid_regexp>
+		<length_min><![CDATA[0]]></length_min>
+		<length_max><![CDATA[0]]></length_max>
+		<show_on_design><![CDATA[1]]></show_on_design>
+		<enable_on_design><![CDATA[1]]></enable_on_design>
+		<show_on_execution><![CDATA[0]]></show_on_execution>
+		<enable_on_execution><![CDATA[0]]></enable_on_execution>
+		<show_on_testplan_design><![CDATA[0]]></show_on_testplan_design>
+		<enable_on_testplan_design><![CDATA[0]]></enable_on_testplan_design>
+		<node_type_id><![CDATA[7]]></node_type_id>
+	</custom_field>
+	<custom_field>
+		<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+		<label><![CDATA[Esfuerzo Realizado]]></label>
+		<type><![CDATA[1]]></type>
 		<possible_values><![CDATA[]]></possible_values>
 		<default_value><![CDATA[]]></default_value>
 		<valid_regexp><![CDATA[]]></valid_regexp>
