@@ -57,6 +57,13 @@
 
 - docker run --rm -it --name maven -v %cd%:/local -v maven-repository:/root/.m2 maven:3.8.6-eclipse-temurin-8 sh
 
+## Ampliaciones
+
+- [Clean Code](https://www.amazon.es/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+- [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- [TMAP Next](https://www.tmap.net/)
+- [Markdown](https://www.markdownguide.org/)
+
 ## Repositorios
 
 - [Grupo 1](https://github.com/joanpaneque/LogiRAIL-project)
