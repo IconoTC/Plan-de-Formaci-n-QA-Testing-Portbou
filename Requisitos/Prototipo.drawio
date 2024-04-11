@@ -25,6 +25,9 @@
                 <mxCell id="19" value="Entregado" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#000000;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
                     <mxGeometry x="402.5" y="370" width="150" height="50" as="geometry"/>
                 </mxCell>
+                <mxCell id="21" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="940" width="80" height="80" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
