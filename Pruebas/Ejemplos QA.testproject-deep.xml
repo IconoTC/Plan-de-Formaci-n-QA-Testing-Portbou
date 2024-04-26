@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="" name="" >
+<node_order><![CDATA[]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="126" name="Gilded Rose" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="127" name="Sulfuras">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[1]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<ul>
+	<li>El art&iacute;culo &quot;Sulfuras&quot; (Sulfuras), siendo un art&iacute;culo legendario, no modifica su&nbsp;fecha de venta&nbsp;ni se degrada en&nbsp;calidad</li>
+</ul>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+</testsuite><testsuite id="129" name="Productos" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="130" name="método updateQuality" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="131" name="Estandar" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="132" name="Con dias pendiente pero sin calidad suficiente">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[2]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Crea un articulo con:</p>
+
+<table cellspacing="0" style="width:240pt">
+	<tbody>
+		<tr>
+			<td style="height:15.0pt; vertical-align:bottom; white-space:nowrap; width:180pt">name</td>
+			<td style="height:15.0pt; vertical-align:bottom; white-space:nowrap; width:60pt">KK</td>
+		</tr>
+		<tr>
+			<td style="height:15.0pt; vertical-align:bottom; white-space:nowrap">sellIn</td>
+			<td style="height:15.0pt; vertical-align:bottom; white-space:nowrap">2</td>
+		</tr>
+		<tr>
+			<td style="height:15.0pt; vertical-align:bottom; white-space:nowrap">quality</td>
+			<td style="height:15.0pt; vertical-align:bottom; white-space:nowrap">1</td>
+		</tr>
+	</tbody>
+</table>
+]]></actions>
+	<expectedresults><![CDATA[<p>OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Ejecutar&nbsp;updateQuality</p>
+]]></actions>
+	<expectedresults><![CDATA[<table cellspacing="0" style="width:240pt">
+	<tbody>
+		<tr>
+			<td style="height:15.0pt; vertical-align:bottom; white-space:nowrap; width:180pt">name</td>
+			<td style="height:15.0pt; vertical-align:bottom; white-space:nowrap; width:60pt">KK</td>
+		</tr>
+		<tr>
+			<td style="height:15.0pt; vertical-align:bottom; white-space:nowrap">sellIn</td>
+			<td style="height:15.0pt; vertical-align:bottom; white-space:nowrap">1</td>
+		</tr>
+		<tr>
+			<td style="height:15.0pt; vertical-align:bottom; white-space:nowrap">quality</td>
+			<td style="height:15.0pt; vertical-align:bottom; white-space:nowrap">0</td>
+		</tr>
+	</tbody>
+</table>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="136" name="Sulfuras" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="137" name="No debe cambiar">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[3]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>El art&iacute;culo &quot;Sulfuras&quot; (Sulfuras), siendo un art&iacute;culo legendario, no modifica su&nbsp;fecha de venta&nbsp;ni se degrada en&nbsp;calidad</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Gilded Rose]]></req_spec_title>
+			<doc_id><![CDATA[GR1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Sulfuras]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+</testsuite></testsuite></testsuite><testsuite id="144" name="Comida rapida" >
+<node_order><![CDATA[3]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="145" name="Pedir pizza">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[4]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Seleccionar hacer pedido</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Mostrara el formulario de Hacer Pedido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Seleccionar pizza 4 Quesos</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aparezca selecionada la&nbsp;pizza 4 Quesos con cantidad 1</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>A&ntilde;adir al carrito</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aparece en lista de pedido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Confirmo pedido</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Me pide los datos de envio</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Intoducir:</p>
+
+<p>Persona: Pepito Grillo</p>
+
+<p>Calle Pez Volador 9B</p>
+
+<p>Telefono de contacto 555 999 999</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Me muesta:</p>
+
+<p>Pedido:</p>
+
+<ol>
+	<li>Pizza 4 Quesos (cantidad: 1 unidades)</li>
+</ol>
+
+<p>Enviar a:</p>
+
+<ul>
+	<li>Pepito Grillo (Telefono:&nbsp;555 999 999)</li>
+	<li>Calle Pez Volador 9B</li>
+</ul>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Subsistema de Clientes]]></req_spec_title>
+			<doc_id><![CDATA[RF 1.1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Hacer Pedido]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+</testsuite></testsuite>
