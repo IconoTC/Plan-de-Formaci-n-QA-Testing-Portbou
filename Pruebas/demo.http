@@ -1,0 +1,18 @@
+get http://localhost:8181/api/personas
+Accept: application/json
+
+###
+
+post http://localhost:8181/api/personas
+Content-Type: application/json
+
+  {
+    "id": 0,
+    "nombre": "uno",
+    "apellidos": "nuevo",
+    "edad": 67
+  }
+
+###
+get http://localhost:8181/api/personas/101
+Accept: application/json
