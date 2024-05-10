@@ -68,8 +68,8 @@
 
 - [Grupo 1](https://github.com/joanpaneque/LogiRAIL-project)
   - [Emma](https://github.com/ecardosa/Logirail-Formacion)
-  - [Roman](https://github.com/RomanMysyura)
-  - [Joan](https://github.com/joanpaneque)
+  - [Roman](https://github.com/RomanMysyura/GildedRoseQA-JUnit)
+  - [Joan](https://github.com/joanpaneque/LogiRAIL-formacion)
 - [Grupo 2](https://github.com/Yugurto7/Logirail-Project)
   - [Marcos](https://github.com/Yugurto7/Logirail-Marcos)
   - [Anton](https://github.com/remmko/Formacion)
