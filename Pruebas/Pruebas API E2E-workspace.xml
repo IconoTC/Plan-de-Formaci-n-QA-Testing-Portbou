@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <con:soapui-workspace name="Pruebas API E2E" soapui-version="5.7.1" xmlns:con="http://eviware.com/soapui/config">
   <con:settings/>
-  <con:project name="Calculadora">C:/Cursos/Testing/TEST20240402/Pruebas/Calculadora-soapui-project.xml</con:project>
+  <con:project status="CLOSED" name="Calculadora">C:/Cursos/Testing/TEST20240402/Pruebas/Calculadora-soapui-project.xml</con:project>
   <con:project name="Web4Testing">C:/Cursos/Testing/TEST20240402/Pruebas/Web4Testing-soapui-project.xml</con:project>
+  <con:collectInfoForSupport>false</con:collectInfoForSupport>
 </con:soapui-workspace>
